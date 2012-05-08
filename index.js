@@ -1,1 +1,1 @@
-module.exports=require('./lib/node-worldbank-api.js');
+module.exports=require('./lib/node-worldbank.js');

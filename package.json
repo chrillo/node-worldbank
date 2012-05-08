@@ -21,14 +21,17 @@
   ],
   "main": "./index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha -t 60000 -R spec"
   },
   "dependencies": {
     "request": ">=2.9.202",
     "async": ">=0.1.18",
-    "querystring": "~0.1.0"
+    "querystring": "~0.1.0",
+    "node_hash": "~0.2.0",
   },
   "devDependencies": {
-    "mocha": ">=1.0.3"
+    "mocha": ">=1.0.3",
+    "express": ">=2.5.9",
+    "should": ">=0.6.3",
   }
 }
