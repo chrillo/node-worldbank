@@ -1,7 +1,7 @@
 node-worldbank
 ==============
 
-Node Library for the Worldbank API. As the Worldbank Api is already pretty nice this wrapper mainly serves the purpose of caching results as suggest by the Worldbank API documentation. It supports 2 Level of caching, a file cache and a in memory cache. It falls back to the fastest available and uses a md5 hash of the request url as a key for the cache. It supports fetching data via regular callbacks as well as streams, this also works for cached results. 
+Node client for the world bank API. As the world bank Api is already pretty nice this wrapper mainly serves the purpose of caching results as suggest by the world bank API documentation (http://data.worldbank.org/developers/api-overview). It supports 2 Level of caching, a file cache and a in memory cache. It falls back to the fastest available and uses a md5 hash of the request url as a key for the cache. It supports fetching data via regular callbacks as well as streams. Streams also work for cached results. 
 
 ###Usage
 
